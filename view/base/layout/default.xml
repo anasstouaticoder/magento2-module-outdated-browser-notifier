@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2024
+ * MIT License
+ * Module AnassTouatiCoder_OutdatedBrowserNotifier
+ * Author Anass TOUATI anass1touati@gmail.com
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="head.additional">
+            <block class="Magento\Framework\View\Element\Template" name="opengraph.general"
+                   ifconfig="outdated_browser_notifier/general/enabled"
+                   template="AnassTouatiCoder_OutdatedBrowserNotifier::js_script.phtml">
+            </block>
+        </referenceBlock>
+    </body>
+</page>

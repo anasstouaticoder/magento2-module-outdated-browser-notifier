@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright (c) 2024
+ * MIT License
+ * Module AnassTouatiCoder_OutdatedBrowserNotifier
+ * Author Anass TOUATI anass1touati@gmail.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource
+                                id="AnassTouatiCoder_OutdatedBrowserNotifier::anasstouaticoder_outdatedbrowserNotifier"
+                                title="Atouati Outdated Browser Notifier"/>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
