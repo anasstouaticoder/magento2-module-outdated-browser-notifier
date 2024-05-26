@@ -11,8 +11,7 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="head.additional">
-            <block class="Magento\Framework\View\Element\Template" name="opengraph.general"
-                   ifconfig="outdated_browser_notifier/general/enabled"
+            <block class="AnassTouatiCoder\OutdatedBrowserNotifier\Block\Base\JsScript" name="browser.banner.general"
                    template="AnassTouatiCoder_OutdatedBrowserNotifier::js_script.phtml">
             </block>
         </referenceBlock>
